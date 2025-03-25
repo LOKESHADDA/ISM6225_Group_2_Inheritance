@@ -17,6 +17,18 @@ namespace Inheritance
         
     }
 
+    public class Student : Person
+{
+   public string Major; 
+   public int GraduationYear;
+   public Student(string name, string email, string id, string major, int graduationYear)
+       : base(name, email, id)
+   {
+       Major = major;
+       GraduationYear = graduationYear;
+   }
+}
+
     public class InheritanceExample
     {
         public static void RunExample()
