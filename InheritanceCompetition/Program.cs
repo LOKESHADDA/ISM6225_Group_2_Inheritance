@@ -1,6 +1,16 @@
-var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+using System;
 
-app.MapGet("/", () => "Hello World!");
+namespace IntroductionToProgramming//ProgrammingInCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Inheritance.InheritanceExample.RunExample();
 
-app.Run();
+            // Program execution completed
+            Console.WriteLine("\nProgram execution completed.");
+        }
+    }
+}
+
