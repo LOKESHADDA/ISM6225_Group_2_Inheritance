@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karth\\Desktop\\ADA_comp2\\ISM6225_Group_2_Inheritance\\InheritanceCompetition\\InheritanceCompetition.csproj": {}
+    "/Users/swethasingireddy/Desktop/Subject/AppDev/ISM6225_Group_2_Inheritance/InheritanceCompetition/InheritanceCompetition.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karth\\Desktop\\ADA_comp2\\ISM6225_Group_2_Inheritance\\InheritanceCompetition\\InheritanceCompetition.csproj": {
+    "/Users/swethasingireddy/Desktop/Subject/AppDev/ISM6225_Group_2_Inheritance/InheritanceCompetition/InheritanceCompetition.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karth\\Desktop\\ADA_comp2\\ISM6225_Group_2_Inheritance\\InheritanceCompetition\\InheritanceCompetition.csproj",
+        "projectUniqueName": "/Users/swethasingireddy/Desktop/Subject/AppDev/ISM6225_Group_2_Inheritance/InheritanceCompetition/InheritanceCompetition.csproj",
         "projectName": "InheritanceCompetition",
-        "projectPath": "C:\\Users\\karth\\Desktop\\ADA_comp2\\ISM6225_Group_2_Inheritance\\InheritanceCompetition\\InheritanceCompetition.csproj",
-        "packagesPath": "C:\\Users\\karth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karth\\Desktop\\ADA_comp2\\ISM6225_Group_2_Inheritance\\InheritanceCompetition\\obj\\",
+        "projectPath": "/Users/swethasingireddy/Desktop/Subject/AppDev/ISM6225_Group_2_Inheritance/InheritanceCompetition/InheritanceCompetition.csproj",
+        "packagesPath": "/Users/swethasingireddy/.nuget/packages/",
+        "outputPath": "/Users/swethasingireddy/Desktop/Subject/AppDev/ISM6225_Group_2_Inheritance/InheritanceCompetition/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\karth\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/swethasingireddy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -62,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
