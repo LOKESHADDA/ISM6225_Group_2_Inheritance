@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InheritanceCompetition")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933d8df2a293f399206eb0b8ffc2c2873086c3c2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16e220f7e864bae69286ffecdb28c4072733af53")]
 [assembly: System.Reflection.AssemblyProductAttribute("InheritanceCompetition")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InheritanceCompetition")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
