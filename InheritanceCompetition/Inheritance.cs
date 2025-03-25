@@ -111,8 +111,38 @@ public class Staff : Person
         public static void RunExample()
         {
             Console.WriteLine("\n--- Inheritance Example ---");
-   
 
+            // Create books
+            Book book1 = new Book("The Art of Data Strategy", "Liam Reynolds", "ISBN111", 4);
+            Book book2 = new Book("Business Insights with AI", "Olivia Carter", "ISBN222", 3);
+            Book book3 = new Book("Analytics in Action", "Nathan Brooks", "ISBN333", 6);
+
+            // Create patrons
+            Person student1 = new Person("Akhil", "akhil@usf.edu", "S001");
+            Person student2 = new Person("Sandeep", "sandeep@usf.edu", "S002");
+
+            Staff staff1= new Staff("Grandon Gill", "grandon@usf.edu", "ST001", "Librarian", "Library Services");
+
+            // Create library and add books and patrons
+            Library library = new Library();
+            library.AddBook(book1);
+            library.AddBook(book2);
+            library.AddBook(book3);
+            library.AddPatron(student1);
+            library.AddPatron(student2);
+            library.AddPatron(staff1);
+
+            // Display books and patrons
+            library.DisplayBooks();
+            library.DisplayPatrons();
+
+            // Borrow books
+            Console.WriteLine("\nBorrowing Books...");
+            library.BorrowBook(student2, book2);  // Sandeep borrows "Business Insights with AI"
+            library.BorrowBook(student1, book3);  // Akhil borrows "Analytics in Action"
+
+            // Display updated library information after borrowing
+            library.DisplayBooksAfterBorrowing();
         }
     }
 }
