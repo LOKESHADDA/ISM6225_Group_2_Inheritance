@@ -79,6 +79,27 @@ public class Library
             Console.WriteLine($"Name: {patron.Name}, ID: {patron.ID}");
         }
     }
+     public void BorrowBook(Person patron, Book book)
+        {
+            if (book.BorrowBook())
+            {
+                Console.WriteLine($"{patron.Name} borrowed '{book.Title}'");
+            }
+            else
+            {
+                Console.WriteLine($"Sorry, '{book.Title}' is not available.");
+            }
+        }
+
+        // New method to display books after borrowing
+        public void DisplayBooksAfterBorrowing()
+        {
+            Console.WriteLine("\nBooks after borrowing:");
+            foreach (var book in Books)
+            {
+                Console.WriteLine($"Title: {book.Title}, Author: {book.Author}, Available Copies: {book.AvailableCopies}");
+            }
+        }
 }
 
 
